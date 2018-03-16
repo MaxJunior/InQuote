@@ -3,18 +3,15 @@
   <head>
   	 <title> To.Inspire.Live. </title>
   	 <link  href="css/style.css" rel="stylesheet">
-  	 <script src="js/script.js"></script>
+  	
   </head>
-  <body>
+  <body id="backgroundColor">
      <div id="container">
-  
-        <div class="nested"> 
-          <p id="quote"> "Its not over until I win."</p>
-         
-          <a href="#" class="btn btn-primary"id="newQuoteButton"> New Quote </button>
-        </div>
-      
-    </div> 
-
+	        <div class="nested"> 
+	          <p id="quote"><quote>"Its not over until I win."</quote></p>   
+	          <a href="#" class="btn btn-primary" onclick="changePageContent(backgroundColorId,backgroundColorIndex,quoteId,quoteIndex)"id="newQuoteButton"> New Quote </a>
+	        </div> 
+     </div> 
+   <script src="js/script.js"></script>
   </body>
 </html>
